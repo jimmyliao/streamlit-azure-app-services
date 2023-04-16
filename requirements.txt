@@ -1,8 +1,4 @@
-altair
-click==8
 pandas
-protobuf==3.20.*
-vega-datasets
 streamlit
 langchain
 faiss-cpu
@@ -13,5 +9,3 @@ pillow
 pypdf
 tenacity
 sentence_transformers
-sqlalchemy
-pyodbc
