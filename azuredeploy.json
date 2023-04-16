@@ -89,7 +89,26 @@
         "properties": {
           "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', variables('appServicePlanPortalName'))]",
           "siteConfig": {
-            "linuxFxVersion": "[parameters('linuxFxVersion')]"
+            "linuxFxVersion": "[parameters('linuxFxVersion')]",
+            "appSettings":
+            [
+                {
+                    "name": "AZURE_SEARCH_ENDPOINT",
+                    "value": "https://<PLACEHOLDER>.search.windows.net"
+                },
+                {
+                    "name": "AZURE_SEARCH_KEY",
+                    "value": "<PLACEHOLDER>"
+                },
+                {
+                    "name": "AZURE_OPENAI_ENDPOINT",
+                    "value": "https://<PLACEHOLDER>.openai.azure.com"
+                },
+                {
+                    "name": "AZURE_OPENAI_API_KEY",
+                    "value": "<PLACEHOLDER>"
+                }
+            ]
           }
         },
         "resources": [
