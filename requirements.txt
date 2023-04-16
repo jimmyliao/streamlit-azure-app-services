@@ -1,11 +1,5 @@
-pandas
 streamlit
 langchain
 faiss-cpu
 openai
 tiktoken
-docx2txt
-pillow
-pypdf
-tenacity
-sentence_transformers
