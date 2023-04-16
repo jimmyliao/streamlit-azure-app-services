@@ -3,4 +3,8 @@ langchain
 faiss-cpu
 openai
 tiktoken
-vega_datasets
+docx2txt
+pillow
+pypdf
+tenacity
+sentence_transformers
